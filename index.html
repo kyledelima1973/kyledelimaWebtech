@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASUSTeK Computer Inc.</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#" >ASUSTeK Computer Inc.</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="mainNav"> 
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only"></span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="products.html">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="aboutus.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contactus.html">Contact Us</a>
+                    </li> 
+                    <li class="nav-item">
+                        <a class="nav-link" href="cart.html">Cart <span id="cart-count" class="badge badge-pill badge-primary">0</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="admin.html">Log In</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="../images/carousel1.jpeg" alt="Product-1">
+          <div class="carousel-caption text-start">
+            <p><a class="btn btn-lg btn-primary" href="products.html">Shop Now!</a></p>
+          </div>
+      </div>
+      <div class="carousel-item">
+        <img src="../images/carousel2.jpeg" alt="Product-2">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
+          <div class="carousel-caption">
+            <p><a class="btn btn-lg btn-primary" href="contactus.html">Contact us!</a></p>
+          </div>
+      </div>
+      <div class="carousel-item">
+        <img src="../images/carousel3.jpg" alt="Product-3">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
+        <div class="container">
+          <div class="carousel-caption text-end">
+            <p><a class="btn btn-lg btn-primary" href="aboutus.html">About Us</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+        <section class="featured-Products">
+            <div class="container">
+                <h2 class="section-title">Best Products!</h2>
+                <div class="row" id="motorcycle-grid">
+                    <div class="col-md-4" id="1">
+                        <div class="ComputerAccessories-card">
+                            <img src="../images/rogstrixg18.jpg" alt="Product-1">
+                            <h3>ROG Strix G18 (2024) G814 </h3>
+                            <h5>₱84,900</h5>
+                            <p>Intel® Z890 (LGA 1851) ATX motherboard, <br>Advanced AI PC-ready,<br>16+1+2+1 80A DrMOS power stages,<br>DDR5 slots, <br>PCIe® 5.0,<br> DisplayPort,<br> HDMI™,<br> two Thunderbolt™ 4 USB Type-C® ports,<br> Front panel USB 20Gbps Type-C® port,<br> 4 x M.2 slots,<br> Wi-Fi 7 with Q-Antenna,<br> Intel® 2.5 Gb Ethernet,<br> M.2 Q-Release,<br> PCIe Q-Release Slim,<br> Pre-mounted I/O shield,<br> BIOS FlashBack™ botton,<br> Aura Sync<br></p>
+                            <button class="btn btn-primary" id="add-to-cart-button-1" onclick="addToCart(1)">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="col-md-4" id="2">
+                        <div class="ComputerAccessories-card">
+                            <img src="../images/primez890-wifi.png" alt="Product-2">
+                            <h3>ASUS PRIME Z890-P WIFI</h3>
+                            <h5>₱18,850.00 </h5>
+                            <p>ntel® Z890 (LGA 1851) ATX motherboard,<br> Advanced AI PC ready,<br> 14+1+2+1 80A DrMOS power stages<br>PCIe® 5.0 x16 slot with full support for next-gen graphics cards,<br> DDR5 slots,<br> four M.2 slots,<br> WiFi 7,<br> Realtek 2.5 Gb Ethernet,<br> DisplayPort,<br> HDMI™,<br> Thunderbolt™ 4 USB Type-C® port,<br> front panel USB 10Gbps Type-C® port,<br> ASUS Control Center Express<br><br><br></p>
+                            <button class="btn btn-primary" id="add-to-cart-button-1" onclick="addToCart(1)">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="col-md-4" id="3">
+                        <div class="ComputerAccessories-card">
+                            <img src="/e-commerceASUS/images/ROG PHONE 8 EDITION.png" alt="Product-3">
+                            <h3>ROG Phone 8 Pro Edition</h3>
+                            <h5>₱65,255.55</h5>
+                            <p>225g163.8x76.8x8.9 mm <br>Android™ 14 with ROG UI <br>Qualcomm Snapdragon 8 Gen 3, SM8650, Qcta-core CPUs, 3.3GHz Qualcomm Adreno 750 <br>LPDDR5X 24GB <br>UFS4.0 1TB <br>6.78" FHD+ (2400x1080 pixels) SAMSUNG Flexible AMOLED
+                                Corning® Gorilla®  Glass Victus™2
+                                107.37% DCI-P3 / 145.65% sRGB / 103.16% NTSC color gamut coverage
+                                1,600 nits HBM / 2,500 nits peak brightness
+                                HDR10 supported
+                                LTPO 1~120Hz, Max to 165Hz
+                                Supports Always-On display, refresh rate down to 1Hz.
+                                Capacitive touchscreen with 10-point multitouch (supports glove touch) EDIT</b></p>
+                            <button class="btn btn-primary" id="add-to-cart-button-1" onclick="addToCart(1)">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="col-md-4" id="4">
+                        <div class="ComputerAccessories-card">
+                            <img src="https://example.com/motorcycle-a.jpg" alt="Motorcycle D">
+                            <h3>Motorcycle D</h3>
+                            <p>Description of Motorcycle D</p>
+                            <button class="btn btn-primary" id="add-to-cart-button-1" oncXick="addToCart(1)">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="col-md-4" id="5">
+                        <div class="ComputerAccessories-card">
+                            <img src="https://example.com/motorcycle-a.jpg" alt="Motorcycle E">
+                            <h3>Motorcycle D</h3>
+                            <p>Description of Motorcycle E</p>
+                            <button class="btn btn-primary" id="add-to-cart-button-1" onclick="addToCart(1)">Add to Cart</button>
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+        </section>
+        <section class="about-us">
+            <div class="container">
+                <h2 class="section-title">About Us</h2>
+                <p>
+                    Sustainability and innovation are the building blocks of ASUSTeK Computer Inc.. As a result, our constant goal is to provide our customers with new technology and customer service at the highest level. ASUSTeK Computer Inc. was established on November 2024 and is committed to this ideal as its greatest source of pride and satisfaction. It’s a two-way street: we provide first-rate technology, and you remain devoted to us.                </p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 ASUSTeK Computer Inc. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

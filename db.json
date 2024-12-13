@@ -1,0 +1,195 @@
+{
+  "motorcycles": 
+  {
+    "Phones": 
+    [
+      {
+          "id": 1,
+          "name": "ROG Phone 8 Edition",
+          "image": "../images/ROG PHONE 8 EDITION.png ",
+          "price": 87836,
+          "tags": ["new"]
+      },
+      {
+          "id": 2,
+          "name": "ROG Phone 8 ",
+          "image": "../images/ROG PHONE 8.png ",
+          "price": 47995,
+          "tags": ["new"]
+      },
+      {
+          "id": 3,
+          "name": "ROG Phone 7 Ultimate",
+          "image": "../images/ROG PHONE 7 Ultimate.png",
+          "price": 64950,
+          "tags": ["new"]
+      },
+      {
+          "id": 4,
+          "name": "ROG Phone 7 ",
+          "image": "../images/ROG PHONE 7a.png",
+          "price": 40995,
+          "tags": ["new"]
+      },
+      {
+          "id": 5,
+          "name": "ROG Phone 6D Ultimate",
+          "image": "../images/ROG Phone 6D Utimate.png",
+          "price": 69995,
+          "tags": ["new"]
+      },
+      {
+          "id": 6,
+          "name": "ROG Phone 6 ",
+          "image": "../images/ROG Phone 6.png ",
+          "price": 30995,
+          "tags": ["new"]
+      }
+    ],
+
+    "Laptops": 
+    [
+      {
+        "id": 7,
+        "name": "ROG Strix g18 (2024) G814",
+        "image": "../images/rogstrixg18.jpg",
+        "price": 84900,
+        "tags": [""]
+      },
+      {
+        "id": 8,
+        "name": "ROG Zephyrus G16 (2023) GU603",
+        "image": "../images/ROG Zephyrus G16 (2023) GU603.png",
+        "price": 98700,
+        "tags": ["new"]
+      },
+      {
+        "id": 9,
+        "name": "ROG Strix SCAR 16 (2024) G634",
+        "image": "../images/ROG Strix SCAR 16 (2024) G634.png",
+        "price": 162125,
+        "tags": []
+      },
+      {
+        "id": 10,
+        "name": "ASUS TUF Gaming A14 (2024)",
+        "image": "../images/ASUS TUF Gaming A14 (2024).png",
+        "price": 104995,
+        "tags": []
+      },
+      {
+        "id": 11,
+        "name": "ASUS TUF Gaming A15 (2024)",
+        "image": "../images/ASUS TUF Gaming A15 (2024).png",
+        "price": 60995,
+        "tags": []
+      },
+      {
+        "id": 12,
+        "name": "ASUS TUF Gaming F15 (2023)",
+        "image": "../images/ASUS TUF Gaming F15 (2023).png",
+        "price": 87995,
+        "tags": []
+      }
+    ],
+    "Monitors": 
+    [
+      {
+        "id": 13,
+        "name": "ROG Strix XG27ACG-W Gaming Monitor",
+        "image": "../images/ROG Strix XG27ACG-W Gaming Monitor.png",
+        "price": 17650,
+        "tags": ["sale"]
+      },
+      {
+        "id": 14,
+        "name": "ROG Strix XG32WCS Gaming Monitor",
+        "image": "../images/ROG Strix XG32WCS Gaming Monitor.png",
+        "price": 19297,
+        "tags": ["new"]
+      },
+      {
+        "id": 15,
+        "name": "ROG Swift OLED PG39WCDM Gaming Monitor",
+        "image": "../images/ROG Swift OLED  PG39WCDM Gaming Monitor.png",
+        "price": 84990,
+        "tags": ["new"]
+      },
+      {
+        "id": 16,
+        "name": "TUF VG289Q Gaming Monitor",
+        "image": "../images/TUF GAMING VG289Q.png",
+        "price": 23395,
+        "tags": ["new"]
+      },
+      {
+        "id": 17,
+        "name": "TUF VG259Q3A Gaming Monitor",
+        "image": "../images/TUF VG259Q3A Gaming Monitor.png",
+        "price": 9500,
+        "tags": ["new"]
+      },
+      {
+        "id": 18,
+        "name": "TUF VG28UQL1A Gaming Monitor",
+        "image": "../images/TUF VG28UQL1A Gaming Monitor.png",
+        "price": 45995,
+        "tags": ["new"]
+      }
+    ],
+    "scooters": 
+    [
+      {
+        "id": 10,
+        "name": "DIO",
+        "image": "https://cms.hondaph.com/images/products/65028b9021df0.png",
+        "price": 62400,
+        "tags": []
+      },
+      {
+        "id": 11,
+        "name": "BeAT (Playful)",
+        "image": "https://cms.hondaph.com/images/products/650ba6028a5af.png",
+        "price": 71900,
+        "tags": []
+      },
+      {
+        "id": 12,
+        "name": "The New CLICK125",
+        "image": "https://cms.hondaph.com/images/products/66d54318e668a.png",
+        "price": 81400,
+        "tags": []
+      }
+    ],
+    "tourer": 
+    [
+      {
+        "id": 13,
+        "name": "The New Gold Wing",
+        "image": "https://www.hondaph.com/honda-bigbikes/images/products/65cc7803c68ce.png",
+        "price": 2000000,
+        "tags": []
+      }
+    ],
+    "underbone": 
+    [
+      {
+        "id": 14,
+        "name": "Wave RSX (DISC)",
+        "image": "https://cms.hondaph.com/images/products/65a9d86129932.png",
+        "price": 64900,
+        "tags": []
+      }
+    ],
+    "business": 
+    [
+      {
+        "id": 15,
+        "name": "The All-New Winner X (Standard)",
+        "image": "https://cms.hondaph.com/images/products/65add5514243d.png",
+        "price": 123900,
+        "tags": []
+      }
+    ]
+  }
+}
